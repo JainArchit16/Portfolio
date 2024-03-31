@@ -9,7 +9,7 @@ require("dotenv").config();
 exports.sendMail = async (req, res) => {
   try {
     const email = req.body.email;
-    const personName = req.body.personName;
+    const personName = req.body.name;
     const Message = req.body.message;
     // console.log(email);
     await mailSender(

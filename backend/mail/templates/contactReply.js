@@ -78,7 +78,7 @@ exports.contactConfirmationEmail = (personName) => {
                   <p>I greatly appreciate you reaching out to me. Your message has been received, and I will get back to you as soon as possible.</p>
                   <p>In the meantime, feel free to explore more about me and my work on my website.</p>
               </div>
-              <a href="https://example.com" class="cta">Visit Our Website</a>
+              <a href="https://archit-jain-portfolio.vercel.app/" class="cta">Visit Our Website</a>
           </div>
       </body>
       
