@@ -69,7 +69,7 @@ function App() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://portfolio-backend-g94j.onrender.com/api/v1/mail/sendMail",
+        "https://portfolio-fv8y.onrender.com/api/v1/mail/sendMail",
         {
           method: "POST",
           headers: {
