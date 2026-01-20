@@ -13,10 +13,7 @@ const mailSender = async (email, title, body) => {
       auth: {
         user: process.env.MAIL_USER,
         pass: process.env.MAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false, // TEMP for debugging
-      },
+      }
     });
     let info = await transporter.sendMail({
       from: "PortFolio Website-Archit Jain",
